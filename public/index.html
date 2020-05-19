@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .show {
+            display: block;
+        }
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="rhtml"></div>
+    <input type="text" id="txt"/>
+    <p id="live-updater"></p>
+    <input type="checkbox" id="chk_example_1">Show more options
+    <div id="show-more" style="border:4px solid red;padding:20px 20px" class="hide">
+        show more options is visible now ....
+    </div>
+   
+    <script src="./reactive-model.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

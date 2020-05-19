@@ -1,0 +1,15 @@
+{
+  "name": "UIBind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "khurram mughal",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "fastify": "2.14.1",
+    "fastify-static": "2.7.0"
+  },
+  "scripts": {
+    "start" : "nodemon server"
+  }
+}
